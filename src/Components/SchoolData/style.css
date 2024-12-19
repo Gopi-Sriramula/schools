@@ -1,0 +1,112 @@
+
+.div1{
+     display: flex;
+     width: 65%;
+     margin: auto;
+     gap: 4rem;
+     padding: 2rem 0rem;
+}
+.nameCity{
+     width: 400px;
+     font-weight: 600;
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+     span{
+          color: grey;
+     }
+}
+.div2{
+     margin: auto;
+     margin-bottom: 3rem;
+     padding-top: 2rem;
+     width: 65%;
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+     .h1{
+          font-size: 40px;
+          border-bottom: 3px solid #01BACF;
+          width: fit-content;
+     }
+     div{
+          display: flex;
+          width: 800px;
+          border-bottom: 1px solid rgb(199, 197, 197);
+          font-size: 23px;
+          padding: 0.5rem;
+          b{
+               width: 400px;
+          }
+     }
+}
+@media only screen and (max-width:1000px){
+     .div1{
+          width: 85%;
+     }
+     .div2{
+          width: 85%;
+     }
+}
+@media only screen and (max-width:880px){
+     .div1{
+          width: 95%;
+          gap: 2rem;
+     }
+     .div2{
+          width: 95%;
+     }
+}
+@media only screen and (max-width:820px){
+     .schoolDetails{
+          width: 90%;
+          margin-bottom: 2rem;
+          margin: auto;
+     }
+     .div1{
+          width: 90%;
+          flex-direction: column;
+     }
+     .div2{
+          width: 90%;
+          margin: auto;
+          div{
+               font-size: 18px;
+               width: 100%;
+               b{
+                    width: 40%;
+               }
+          }
+     }
+}
+@media only screen and (max-width:590px){
+     .schoolDetails{
+          width: 90%;
+          margin-bottom: 2rem;
+     }
+     .nameCity{
+          width: 200px;
+          h1{
+               font-size: 2rem;
+          }
+          span{
+               color: grey;
+          }
+     }
+     .div2{
+          .h1{
+               font-size: 25px;
+          }
+          div{
+               font-size: small;
+               gap: 2rem;
+               p{
+                    width: 300px;
+               }
+          }
+     }
+}
+
+
+
+

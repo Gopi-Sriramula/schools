@@ -1,0 +1,26 @@
+@import 'material-icons/iconfont/material-icons.css';
+.containerSearch{
+     display: flex;
+     gap: 0.1rem;
+     align-items: center;
+     border: 1px solid #cccccc;
+     width: 60%;
+     margin: 2rem auto;
+     padding:0.1rem 1rem;
+     border-radius: 3rem;
+     input{
+          flex: 1;
+          padding: 0.7rem;
+          font-size: large;
+          outline: none;
+          border: none;
+     }
+     span{
+          color: #6b6969;
+     }
+}
+@media only screen and (max-width:900px){
+     .containerSearch{
+          width: 78%;
+     }
+}

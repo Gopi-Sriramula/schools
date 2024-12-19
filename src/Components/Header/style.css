@@ -1,0 +1,57 @@
+.header{
+     background-color: #4561AA;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     padding: 1.3rem 2rem;
+     align-items: center;
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+}
+.head{
+     font-size: 2.5rem;
+}
+.links{
+     display: flex;
+     gap: 2rem;
+}
+.link{
+     text-decoration: none;
+     color: lightgray;
+     font-size: 1.5rem;
+}
+.link:hover{
+     color: #fff;
+     transition: all 0.3s;
+}
+@media only screen and (max-width:700px) {
+     .head{
+          font-size: 2rem;
+     }
+     .link{
+          text-decoration: none;
+          color: lightgray;
+          font-size: 1rem;
+     }
+     .header{
+          padding: 1rem;
+     }
+}
+@media only screen and (max-width:500px) {
+     .head{
+          font-size: 1.3rem;
+     }
+     .link{
+          text-decoration: none;
+          color: lightgray;
+          font-size: 0.8rem;
+     }
+     .header{
+          padding: 1rem;
+     }
+     .links{
+          display: flex;
+          gap: 1rem;
+     }
+}
