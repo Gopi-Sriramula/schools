@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import {HashRouter, Route, Routes } from "react-router-dom";
 import AddSchool from "./pages/AddSchool";
 import "./index.css";
 import ShowSchools from "./pages/ShowSchools";
@@ -6,13 +6,13 @@ import AboutSchool from "./pages/AboutSchool";
 const App = function () {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/showSchools" element={<ShowSchools />} />
           <Route path="/showSchools/:id" element={<AboutSchool/>} />
           <Route path="/" element={<AddSchool />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };
