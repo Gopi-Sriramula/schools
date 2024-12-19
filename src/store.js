@@ -8,7 +8,7 @@ const data = [
           state:"Uttar Pradesh",
           phoneNo:9919342299,
           email:"principal@lamartinierelucknow.org",
-          address:"La Martiniere College Road, Hazratganj, Lucknow"
+          address:"La Martiniere Hazratganj"
      },
      {
           id:1002,

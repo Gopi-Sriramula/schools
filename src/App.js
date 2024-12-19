@@ -8,9 +8,9 @@ const App = function () {
     <div>
       <HashRouter>
         <Routes>
-          <Route path="/showSchools" element={<ShowSchools />} />
+          <Route path="/addSchool" element={<AddSchool />} />
+          <Route path="/" element={<ShowSchools />} />
           <Route path="/showSchools/:id" element={<AboutSchool/>} />
-          <Route path="/" element={<AddSchool />} />
         </Routes>
       </HashRouter>
     </div>

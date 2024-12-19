@@ -5,8 +5,8 @@ function Header() {
     <div className="header">
       <h1 className="head">Schools</h1>
       <div className="links">
-          <Link className="link" to="/showSchools">ShowSchools</Link>
-          <Link className="link" to="/">AddSchool</Link>
+          <Link className="link" to="/">ShowSchools</Link>
+          <Link className="link" to="/addSchool">AddSchool</Link>
       </div>
     </div>
   );
